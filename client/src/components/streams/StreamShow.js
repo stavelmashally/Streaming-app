@@ -20,7 +20,7 @@ class StreamShow extends Component {
     this.buildPlayer();
   }
 
-  componentWillMount() {
+  componentWillUnmount() {
     // Detach the video stream
     this.player.destroy();
   }

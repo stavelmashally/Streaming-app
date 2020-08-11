@@ -1,11 +1,25 @@
-## Available Scripts
+React Application for streaming. <br />
+Built with: 
+React, Redux, react-router<br />
+Api:
+[json-server](https://github.com/typicode/json-server),
+[Node-Media-Server](https://github.com/illuspas/Node-Media-Server)
 
-In the project directory, you can run:
+## How to use
 
+### Available Scripts
 ### `npm start`
 
-Runs the client app in the development mode.<br />
+Open client folder and run the client app in the development mode.
+<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Runs the API in the development mode.<br />
-Open [http://localhost:3001](http://localhost:3001).
+Run the API.<br />
+
+Run the RTMP Server<br />
+
+### Start Streaming
+Open the OBS Software, go to Settings > Stream.<br />
+Choose Custom service and add the folowing:<br />
+Server: rtmp://localhost/live<br />
+Stream Key: your-stream-key<br />
