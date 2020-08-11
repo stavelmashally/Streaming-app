@@ -9,12 +9,6 @@
       "title": "Other Stream",
       "description": "Some stream",
       "id": 2
-    },
-    {
-      "title": "React Redux Streaming",
-      "description": "Building a react-redux project!",
-      "userId": "100077464826974302784",
-      "id": 4
     }
   ]
 }

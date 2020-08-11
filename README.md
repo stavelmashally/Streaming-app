@@ -1,6 +1,6 @@
 React Application for streaming. <br />
 Built with: 
-React, Redux, react-router<br />
+React, Redux, react-router, redux-thunk<br />
 Api:
 [json-server](https://github.com/typicode/json-server),
 [Node-Media-Server](https://github.com/illuspas/Node-Media-Server)
@@ -19,7 +19,7 @@ Run the API.<br />
 Run the RTMP Server<br />
 
 ### Start Streaming
-Open the OBS Software, go to Settings > Stream.<br />
+Open the [OBS](https://obsproject.com/) Software, go to Settings > Stream.<br />
 Choose Custom service and add the folowing:<br />
 Server: rtmp://localhost/live<br />
 Stream Key: your-stream-key<br />
