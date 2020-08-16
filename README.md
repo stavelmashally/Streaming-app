@@ -13,14 +13,8 @@ Set environment variables with your OAuth client id:
 ```
 cp .env.development.local.example .env.development.local
 ```
- run the client app in the development mode:
+ run the client, api, rtmp using:
  ### `npm start`
-<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-<br/>
-Run the API.<br />
-
-Run the RTMP Server<br />
 
 ### Start Streaming
 Open the [OBS](https://obsproject.com/) Software, go to Settings > Stream.<br />
